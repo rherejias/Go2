@@ -290,53 +290,10 @@ const TournamentContext = ({ children }: TournamentContextProps) => {
   const [dataList, setDataList] = useState<ITrainer[]>([
     {
       id: 1691757464771,
-      name: 'Ren Herejias',
+      name: 'Sample Trainer',
       rank: 'S',
       pokemon: pokemonSample
-    },
-    {
-      id: 5829506947234,
-      name: 'Kaye Maglalang',
-      rank: 'S',
-      pokemon: pokemonSample
-    },
-    {
-      id: 5748395837612,
-      name: 'John Doe',
-      rank: 'D',
-      pokemon: pokemonSample
-    },
-    {
-      id: 2759386758120,
-      name: 'Juan Vig',
-      rank: 'C',
-      pokemon: pokemonSample
-    },
-    {
-      id: 8549274623451,
-      name: 'Nancy Grace',
-      rank: 'E',
-      pokemon: pokemonSample
-    },
-    {
-      id: 5839506847234,
-      name: 'Lily Scott',
-      rank: 'D',
-      pokemon: pokemonSample
-    },
-    {
-      id: 9472847560194,
-      name: 'Lee Johnson',
-      rank: 'A',
-      pokemon: pokemonSample
-    },
-    {
-      id: 4637285960194,
-      name: 'Jerome Adams',
-      rank: 'B',
-      pokemon: pokemonSample
-    }
-  ]);
+    }]);
   const [openModal, setOpenModal] = useState<boolean>(false);
   const [openPokemonModal, setOpenPokemonModal] = useState<boolean>(false);
   const [openUpdatePokemonModal, setOpenUpdatePokemonModal] = useState<boolean>(false);
